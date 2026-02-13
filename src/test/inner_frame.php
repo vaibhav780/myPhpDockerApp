@@ -1,0 +1,1 @@
+<p id="tinymce">Your content goes here.</p>
