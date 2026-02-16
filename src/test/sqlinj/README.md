@@ -10,6 +10,7 @@
 
 1. Open `sqlinj/login.php` to log in (admin/password or use SQL injection)
    - You can use SQL injection in `login.php` (e.g., username: `admin' -- ` and any password) to bypass authentication. This is intentionally vulnerable for demonstration.
+   password = ' OR '1'='1
 2. After login, access `dashboard.php` and use `logout.php` to log out
 3. For SQL injection testing, use `sqlinj_test.php`:
    - Try username: `admin' -- ` and any password to bypass login
